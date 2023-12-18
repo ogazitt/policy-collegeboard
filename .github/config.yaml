@@ -1,0 +1,3 @@
+server: registry.prod.aserto.com
+username: collegeboard-poc
+repo: collegeboard-poc/policy-collegeboard
