@@ -18,3 +18,7 @@ allowed {
     "subject_id": input.user.id
   })
 }
+
+allowed {
+  input.user.properties.roles[_] == "admin"
+}
