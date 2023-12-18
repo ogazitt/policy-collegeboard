@@ -22,3 +22,7 @@ allowed {
 allowed {
   input.user.properties.roles[_] == "admin"
 }
+
+allowed {
+  input.user.properties.department == "Engineering"
+}
